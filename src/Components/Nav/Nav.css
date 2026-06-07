@@ -1,0 +1,27 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--surface);
+    color: #fff;
+    margin-bottom: 20px;
+}
+.nav-container .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-container .nav-links {
+    display: flex;
+    gap: 15px;
+}
+.nav-container .nav-links button {
+    background: transparent;
+    border: none;
+    color: var(--text);
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 8px;
+}

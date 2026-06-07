@@ -1,0 +1,61 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.create-posts {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.create-posts textarea {
+  min-height: 120px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.737);
+  background: transparent;
+  color: var(--text);
+}
+.create-posts .actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.create-posts .actions .btn {
+  min-width: 120px;
+}
+.create-posts .content-input {
+  display: flex;
+  gap: 12px;
+}
+.create-posts  select {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.749);
+  background: transparent;
+  color: var(--text);
+}
+.create-posts  select option {
+  background: var(--surface);
+}
+.input-cont{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.title input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.751);
+  background: transparent;
+  color: var(--text);
+}
+@media (max-width: 520px) {
+  .create-posts textarea {
+    min-height: 90px;
+  }
+}
